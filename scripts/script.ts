@@ -17,10 +17,10 @@ document.addEventListener(
         const cartElem = document.getElementById('cart');
         initItems(selectedGoods, cartElem);
 
-        const goodsList = document.getElementById('goods');
-        initItems(goods, goodsList);
+        const goodsListElem = document.getElementById('goods');
+        initItems(goods, goodsListElem);
 
-        const goodsListItems = goodsList.getElementsByTagName('li');
+        const goodsListItems = goodsListElem.getElementsByTagName('li');
         for (let i = 0; i < goodsListItems.length; ++i) {
             const button = createButton('Добавить в корзину', addItemToCart, [goods[i], cartElem]);
             goodsListItems[i].appendChild(button);
