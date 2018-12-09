@@ -1,3 +1,5 @@
 Currency Converter
 
-'script.js' compiled by command "tsc script.ts --removeComments"
+"npm install -g typescript"
+
+'script.js' created by typescript compiler "tsc script.ts --removeComments"
